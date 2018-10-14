@@ -1,0 +1,144 @@
+.app-logo {
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.dashboard {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__wallet-information {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+#wallet-information {
+  text-align: left;
+}
+
+#wallet-information th {
+  padding-right: 20px;
+}
+
+.transaction {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction__form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 3px solid lightgray;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=number]:focus {
+  border: 3px solid #F58220;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 3px solid lightgray;
+  background: transparent;
+  transition: 0.5s;
+  outline: none;
+}
+
+select:focus {
+  border: 3px solid #F58220;
+}
+
+#submit-button {
+  color: white;
+  padding: 8px 64px;
+  background-color: #F58220;
+  border: 2px solid #F58220;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.transaction__list {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.transaction__message {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#error-message {
+  color: red;
+}
+
+#success-message {
+  color: green;
+}
+
+#transaction-list th, #transaction-list td{
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid #F58220;
+}
+
+#transaction-list {
+  border-collapse: collapse;
+}
+
+#transaction-list tbody tr:hover {
+  background-color:#f5f5f5;
+}
+
+#transaction-list thead{
+  background-color: #F58220;
+  color: white;
+}
+
+.app-router {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app-router {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid floralwhite;
+  background-color: #f3f3f3;
+}
+
+.app-router li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.app-router li a:hover:not(.active) {
+  transition: 0.2s;
+  background-color: #F58220;
+  color: white;
+}
