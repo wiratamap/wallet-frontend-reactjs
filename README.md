@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/wiratamap/wallet-frontend-reactjs/workflows/Node.js%20CI/badge.svg?branch=master)
+
 ## Wallet Application
 
 This is a Front End for simple wallet application. This application was built using Test Driven Development practice.
